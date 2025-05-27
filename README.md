@@ -2,7 +2,7 @@
 
 ## Prerequisites
 * You'll need to have `npx` installed
-* You'll need to have a physical/emulated Android/iOS device to test the mobile application - for web, you can access it on any modern web browser on http://localhost:8081/
+* You'll need to have a physical/emulated Android/iOS device (with Developer Mode enabled) to test the mobile application - for web, you can access it on any modern web browser on http://localhost:8081/
 
 ## Install Dependencies
 
