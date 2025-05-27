@@ -1,3 +1,11 @@
+export type CartItem = {
+    id: string;
+    image: string;
+    description: string;
+    price: number;
+    quantity: number;
+};
+
 export class CartItemStack {
     items: CartItem[];
 
@@ -26,14 +34,6 @@ export class CartItemStack {
     size() {
         return this.items.length;
     }
-}
-
-export type CartItem = {
-    id: string;
-    image: string;
-    description: string;
-    price: number;
-    quantity: number;
 };
 
-export default CartItem;
+export default CartItemStack;
